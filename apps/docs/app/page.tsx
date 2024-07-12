@@ -41,17 +41,12 @@ export default function Home() {
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
-            className={styles.secondary}
+            className={"text-2xl text-red-500"}
           >
-            Read our docs
+            Read our docssasd
           </a>
         </div>
-        <Button
-          appName="docs"
-          className="mx-auto rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-        >
-          Open alert
-        </Button>
+        <Button className="bg-green-500 ">Open alertd</Button>
       </main>
       <footer className={styles.footer}>
         <a
